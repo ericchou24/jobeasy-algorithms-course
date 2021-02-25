@@ -16,13 +16,10 @@ def find_max():
 
 ##3 Count Odd and even numbers.
 def odd_even_cut(number):
-    digits = []
     even_count = 0
     odd_count = 0
     for digit in str(number):
-        digits.append(digit)
-    for i in digits:
-        if int(i) % 2 == 0:
+        if int(digit) % 2 == 0:
             even_count+=1
         else:
             odd_count+=1
