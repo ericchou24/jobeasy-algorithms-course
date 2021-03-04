@@ -43,7 +43,3 @@ def root_digit(number):
             print("This is underlying total:" + str(total))
     print("This final: " + str(total))
     return total
-
-root_digit(493193)
-
-    ##Try to make this recursive
